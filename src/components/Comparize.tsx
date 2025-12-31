@@ -106,7 +106,7 @@ export default function Comparize() {
                                 initial={{ opacity: 0, scale: 0.95 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 1.05, filter: "blur(10px)" }}
-                                className="absolute inset-0 z-[60] flex items-center justify-center p-4 lg:p-8"
+                                className="absolute inset-0 z-[40] flex items-center justify-center p-4 lg:p-8"
                             >
                                 <div className="max-w-2xl w-full bg-card/80 backdrop-blur-3xl border-2 border-primary/30 rounded-3xl p-8 md:p-12 text-center shadow-[0_0_50px_rgba(0,255,255,0.1)] relative overflow-hidden">
                                     {/* Decorative Scan Line */}
